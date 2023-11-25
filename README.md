@@ -1,7 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
@@ -39,32 +35,31 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Design Decisions:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Progress Bar:
 
-### Code Splitting
+Implemented a gradient progress bar (blue to purple) for intuitive completion tracking.
+Offers a visually appealing indication of progress throughout the onboarding process.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Selectors (Genre, Movie, TV Show):
 
-### Analyzing the Bundle Size
+Users select top 5 genres, movies, or TV shows from predefined lists.
+Each selector includes a search bar for easy discovery and selection.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Banner Component:
 
-### Making a Progressive Web App
+Displays user's top 5 selections at the bottom of each step.
+Provides navigation buttons (Back and Next/Skip) for a seamless user experience.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Fading Effect:
 
-### Advanced Configuration
+Applied a gradient background for a fading effect.
+Enhances visibility under the banner, creating a visually appealing transition.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Responsiveness:
 
-### Deployment
+Design adapts to different screen sizes and orientations.
+Ensured flexibility in image sizes for a consistent and user-friendly display.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
